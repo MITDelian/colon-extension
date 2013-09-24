@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+
+  "name": "Colon Capitalizer",
+  "description": "This extension capitalizes the first word after colons",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["http://*/*"],
+      "js": ["jquery.js", "capitalize.js"]
+    }
+  ]
+}
